@@ -1,6 +1,3 @@
-a=int(input("valor del numerador: "))
-b=int(input("valor del denominaador: "))
-if a%b==0:
-    print("La division es exacta")
-else:
-    print("la division no es exacta")
+a = int(input("valor del numerador: "))
+for i in range(1, a + 1):
+    print("la division de:", a, i, "es:", a / i)
